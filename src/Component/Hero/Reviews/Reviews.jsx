@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "./reviews.css";
-import testimonials from "/public/data/Reviews.json";
-import SectionDivider from "../../../assets/Sectiondivider/SectionDivider";
+import testimonials from "../../../data/Reviews.json";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Button, Card, Col } from "react-bootstrap";
 import "./Packages.css";
-import plans from "/public/data/plans.json";
+import plans from "../../../data/Plans.json";
 import { useNavigate } from "react-router-dom";
 
 import AOS from "aos";

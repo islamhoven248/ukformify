@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Table } from 'react-bootstrap';
-import plans from '/public/data/plans.json'; 
+import plans from '../data/Plans.json'; 
 
 export default function Ourplans() {
   return (
