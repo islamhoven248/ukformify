@@ -65,6 +65,13 @@
     bottom: 70px;
     left: 50%;
     transform: translateX(8%);
+    transform: scale(0.8);
+  }
+  
+  
+  .cta-button:hover {
+    transform: translate(1px, 1px); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   }
   .slider-box img {
     width: 95%;
