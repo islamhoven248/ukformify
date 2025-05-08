@@ -62,9 +62,14 @@
   .cta-button {
     padding: 12px 24px;
     font-size: 1rem;
-    bottom: 20px;
+    bottom: 70px;
     left: 50%;
-    transform: translateX(10%);
+    transform: translateX(8%);
+  }
+  .slider-box img {
+    width: 95%;
+    height: 95%;
+    object-fit: fill;
   }
 }
 

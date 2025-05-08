@@ -5,6 +5,11 @@
   font-size: 1rem;
   border-bottom: 1px solid #ddd;
 }
+.navbar-collapse {
+  background-color: #F2F2F2;
+  padding: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 .navbar-logo {
   max-height: 50px;
