@@ -1,0 +1,36 @@
+[
+    {
+      "index" : "1",
+      "title": "Starter Plan",
+      "priceEG": "1000 EGP",
+      "priceER": "100 EUR",
+      "desc": "Perfect for individuals starting out.",
+      "color": "#F2F2F2",
+      "textColor": "black"
+      ,"delay": 200
+      
+    },
+
+    {
+      "index" : "2",
+      "title": "Premium Plan",
+      "priceEG": "3000 EGP",
+      "priceER": "300 EUR",
+      "desc": "Best for growing companies with teams.",
+      "color": "#C9B037",
+      "textColor": "#1C1C1C",
+      "featured": true
+      ,"delay": 700
+    },  
+      {
+      "index" : "2",
+      "title": "Business Plan",
+      "priceEG": "2000 EGP",
+      "priceER": "200 EUR",
+      "desc": "Ideal for startups and entrepreneurs.",
+      "color": "#002366",
+      "textColor": "white"
+      ,"delay": 400
+    }
+  ]
+  

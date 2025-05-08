@@ -1,0 +1,46 @@
+.partners-wrapper {
+    background-color: #f9f9f9;
+  
+    overflow: hidden;
+  }
+  
+  .logo-row {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0;
+    white-space: nowrap;
+  }
+  
+  .logo-row img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-row img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  /* حركة لليسار */
+  @keyframes slide-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  /* حركة لليمين */
+  @keyframes slide-right {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(50%); }
+  }
+  
+  .move-left {
+    animation: slide-left 25s linear infinite;
+  }
+  
+  .move-right {
+    animation: slide-right 30s linear infinite;
+  }
+  

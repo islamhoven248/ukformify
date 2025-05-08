@@ -1,0 +1,13 @@
+.section-divider {
+    width: 40%;
+    height: 4px;
+    position: absolute;
+    
+  
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background: linear-gradient(90deg, #002366, #b30c0c); 
+    border-radius: 2px;
+  }
+  

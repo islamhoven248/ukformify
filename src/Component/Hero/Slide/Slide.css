@@ -1,0 +1,36 @@
+.services-section {
+   padding-top: 10px;
+   padding-bottom: 100px;
+   background-color: #f8f9fa;
+ }
+ 
+ .services-section .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   text-align: center;
+ }
+ 
+
+ 
+
+ .services-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);  
+   gap: 30px;
+   margin-top: 50px;
+ }
+ 
+ 
+ @media (max-width: 1024px) {
+   .services-grid {
+     grid-template-columns: repeat(2, 1fr); 
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .services-grid {
+     grid-template-columns: 1fr;  
+   }
+ }
+ 
+ 

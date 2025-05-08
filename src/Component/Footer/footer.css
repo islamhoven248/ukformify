@@ -1,0 +1,48 @@
+.footer-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 3rem 0 2rem;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.footer-section h4, 
+.footer-section h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #ff4d4d;
+}
+
+.footer-section input[type="email"] {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.footer-section button {
+  border-radius: 20px;
+}
+
+.footer-section hr {
+  opacity: 0.2;
+  border-top: 1px solid white;
+}
+
+.social-icons a i {
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    padding: 2rem 1rem;
+  }
+}
