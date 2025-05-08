@@ -63,22 +63,25 @@
     padding: 12px 24px;
     font-size: 1rem;
     bottom: 70px;
-    left: 50%;
-    transform: translateX(8%);
-    transform: scale(0.8);
-  }
+    left: 48%;
   
+    transform: scale(0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
   
   .cta-button:hover {
-    
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    transform: translateX(-0%);
+    transform: scale(0.8);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
+  
   .slider-box img {
     width: 95%;
     height: 95%;
     object-fit: fill;
   }
 }
+
 
 
   /* ////////////////// */
