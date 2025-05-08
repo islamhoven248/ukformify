@@ -26,7 +26,7 @@ export default function Reviews() {
               <Card className="testimonial-card h-100 shadow-sm">
                 <Card.Body>
                   <div className="quote-icon top">
-                    <img src="/public/partners/qutup.png" alt="quote up" />
+                    <img src="/partners/qutup.png" alt="quote up" />
                   </div>
 
                   <Card.Text className="quote-text text-muted fst-italic">
@@ -34,7 +34,7 @@ export default function Reviews() {
                   </Card.Text>
 
                   <div className="quote-icon bottom">
-                  <img src="/public/partners/sas.png" alt="quote up" />
+                  <img src="/partners/sas.png" alt="quote up" />
                   </div>
                 </Card.Body>
                 <Card.Footer className="border-0 bg-transparent">
