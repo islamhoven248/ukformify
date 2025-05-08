@@ -55,7 +55,7 @@ export default function FAQ() {
           </Col>
           <Col style={{ flex: 1}}>
           <div className='FAQ'>
-            <img src="/public/partners/FAQ.png" alt="" />
+            <img src="/partners/FAQ.png" alt="" />
           </div>
           
           </Col>
