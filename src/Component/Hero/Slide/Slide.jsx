@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 
 import Blocks from "./Slider/Blocks";
 
-import "./slide.css";
+import "./Slide.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SectionDivider from "../../../assets/Sectiondivider/SectionDivider";
+
 import { Container } from "react-bootstrap";
 
 
